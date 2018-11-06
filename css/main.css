@@ -19,10 +19,8 @@ img {
   max-width: 40px;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.header {
+  display: block;
   align-items: center;
   background-color: #d05c2e;
   border: 3px solid #a63f38;
@@ -40,9 +38,21 @@ nav {
   display: inline-block;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 a {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   text-align: center;
+  font-size: 1.125em;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  border: 3px solid #a63f38;
 }
 
 a:hover {
