@@ -33,9 +33,18 @@ nav {
   padding: 0;
 }
 
-.menu li {
+.grains {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
   list-style-type: none;
-  display: inline-block;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
 }
 
 h1 {
